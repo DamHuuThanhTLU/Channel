@@ -27,6 +27,7 @@
                 <th>Description</th>
                 <th>SubscribersCount</th>
                 <th>URL</th>
+                <th>Action</th>
             </tr>
             @if(count($data) > 0)
 
