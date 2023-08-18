@@ -5,7 +5,7 @@
 <div class="card">
     <div class="card-header">Edit Channel</div>
     <div class="card-body">
-        <form method="post" action="{{ route('channel.update', $channel->id ) }}" enctype="multipart/form-data">
+        <form method="post" action="{{ route('channel.update', $channel->ChannelID ) }}" enctype="multipart/form-data">
             @csrf
             @method('PUT')
             <div class="row mb-3">
@@ -33,7 +33,7 @@
                 </div>
             </div>
             <div class="text-center">
-                <input type="hidden" name="hidden_id" value="{{ $channel->id }}" />
+                <input type="hidden" name="hidden_id" value="{{ $channel->ChannelID }}" />
                 <input type="submit" class="btn btn-primary" value="Edit" />
             </div>
         </form>

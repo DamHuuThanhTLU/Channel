@@ -9,7 +9,7 @@
 <body>
     <div class="container mt-5">
 
-        <h1 class="text-primary mt-3 mb-4 text-center"><b>Employees</b></h1>
+        <h1 class="text-primary mt-3 mb-4 text-center"><b>Channels</b></h1>
 
         @yield('content')
 

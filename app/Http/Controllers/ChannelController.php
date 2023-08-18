@@ -34,6 +34,7 @@ class ChannelController extends Controller
         //
         channel::create($request->post());
           $request->validate([
+            'ChannelID'=>'required',
             'ChannelName'=>'required',
             'Description'=>'required',
             'SubscribersCount'=>'required',
